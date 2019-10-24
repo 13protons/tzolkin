@@ -1,0 +1,30 @@
+{
+  "name": "tzolkin",
+  "version": "1.0.0",
+  "description": "Create lists of days to be paired with a UI for rendering calendars and date picker",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --require @babel/register ./test/*.spec.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/13protons/tzolkin.git"
+  },
+  "author": "13protons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/13protons/tzolkin/issues"
+  },
+  "homepage": "https://github.com/13protons/tzolkin#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
